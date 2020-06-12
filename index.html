@@ -8,10 +8,6 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap"
       rel="stylesheet"
@@ -23,7 +19,7 @@
     <!--Navigation-->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
       <div class="container-fluid">
-        <a href="#" class="navbar-brand"
+        <a href="index.html" class="navbar-brand"
           ><img src="img/logo.png" class="imgHead" /> Blender</a
         >
         <button
@@ -37,16 +33,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="#" class="nav-link active">Начать курс</a>
+              <a href="#Course" class="nav-link active">Начать курс</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Материалы курса</a>
+              <a href="TextMaterial.html" class="nav-link">Материалы курса</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Тестовые задания</a>
+              <a href="TestWork.html" class="nav-link">Тестовые задания</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Видео материал</a>
+              <a href="VideoMaterial.html" class="nav-link">Видео материал</a>
             </li>
           </ul>
         </div>
@@ -67,12 +63,12 @@
               Погрузись в удивительный мир 3D графики вместе с программой
               Blender 3D
             </h3>
-            <button
-              type="button"
+
+            <!--<a
+              href="StartCourse.html"
               class="btn btn-outline-dark btn-lg ColorBlend"
-            >
-              Начать обучение!
-            </button>
+              >Начать обучение!</a
+            >-->
           </div>
         </div>
       </div>
@@ -84,7 +80,7 @@
     <div class="container-fluid padding">
       <div class="rov alert text-center">
         <div class="col-12">
-          <h1 class="display-4">Данный курс предоставляет:</h1>
+          <h1 class="display-4" id="Course">Данный курс предоставляет:</h1>
         </div>
         <hr />
       </div>
@@ -97,10 +93,10 @@
             <div class="card-body">
               <h4 class="card-title">Текстовые материалы</h4>
               <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
-                doloremque ad mollitia.
+                Сборник множества интересных книг по работе с программой Blender
+                3D.
               </p>
-              <a href="#" class="btn btn-warning">Посмотреть</a>
+              <a href="TextMaterial.html" class="btn btn-warning">Посмотреть</a>
             </div>
           </div>
         </div>
@@ -110,10 +106,11 @@
             <div class="card-body">
               <h4 class="card-title">Видео материалы</h4>
               <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
-                doloremque ad mollitia.
+                Видео курс по работе с программой Blender 3D.
               </p>
-              <a href="#" class="btn btn-warning">Посмотреть</a>
+              <a href="VideoMaterial.html" class="btn btn-warning"
+                >Посмотреть</a
+              >
             </div>
           </div>
         </div>
@@ -123,10 +120,10 @@
             <div class="card-body">
               <h4 class="card-title">Тестовые задания</h4>
               <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
-                doloremque ad mollitia.
+                Пройди тест и проверь свои знания по работе с программоой
+                Blender 3D.
               </p>
-              <a href="#" class="btn btn-warning">Посмотреть</a>
+              <a href="TestWork.html" class="btn btn-warning">Посмотреть</a>
             </div>
           </div>
         </div>
@@ -135,7 +132,7 @@
     <hr />
     <!--CloseCardMenu-->
     <!--StartFooter-->
-    <footer class>
+    <footer class="foot">
       <div class="container-fluid">
         <ul class="list-inline">
           <li class="list-inline-item"><a href="#">О проекте</a></li>
@@ -150,5 +147,10 @@
       </div>
     </footer>
     <!--CloseFooter-->
+    <!--Script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   </body>
 </html>

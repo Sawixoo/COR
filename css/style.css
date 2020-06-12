@@ -58,3 +58,25 @@ html {
 .txt {
   text-align: right;
 }
+
+/*.foot {
+  background-color: #343a40;
+  height: auto;
+}*/
+
+/*==============================================VideoMaterial.html=================================*/
+.pVM {
+  text-align: right;
+}
+
+/*.hrVM {
+}*/
+
+/*==============================================TextMaterial.html=================================*/
+.foot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*==============================================TestWork.html=================================*/
