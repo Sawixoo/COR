@@ -69,6 +69,15 @@ html {
   text-align: right;
 }
 
+.iframeVideo {
+  max-width: 560px;
+  max-height: 315px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding: 10px;
+}
 /*.hrVM {
 }*/
 
