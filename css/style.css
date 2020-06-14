@@ -89,3 +89,22 @@ html {
 }
 
 /*==============================================TestWork.html=================================*/
+.testCard {
+  align-items: center;
+  height: 300px;
+}
+
+.testCard h4 {
+  color: crimson;
+  text-align: center;
+}
+
+.testCard input {
+  margin: 10px;
+}
+
+.infoH {
+  margin: 20px;
+  text-align: center;
+  color: crimson;
+}
